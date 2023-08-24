@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+   
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #f0f0f0;">
+    <div class="container">
+        <h1>Formulário</h1>
+        <form>
+          <label for="cliente">Cliente:</label>
+          <input type="text" id="cliente" name="cliente" required>
+
+          
+           <table>
+            <tr>
+              <td><strong><i class="fas fa-user"></i> Nome do cliente:</strong></td>
+              <td><i class="fas fa-envelope"></i> E-mail:</td>
+              <td><i class="fas fa-phone"></i> Telefone:</td>
+            </tr>
+            <tr>
+              <td>Nome do cliente aqui</td>
+              <td>E-mail do cliente aqui</td>
+              <td>Telefone do cliente aqui</td>
+            </tr>
+          </table>
+
+          
+          <button type="button" class="edit-button">Editar</button>
+    
+    
+          <label for="categoria">Categoria de Serviço:</label>
+          <input type="text" id="categoria" name="categoria" required>
+    
+          <label for="prestador">Prestador de Serviços:</label>
+          <input type="text" id="prestador" name="prestador" required>
+    
+          <label for="evento">Evento:</label>
+          <input type="text" id="evento" name="evento" required>
+    
+          <div class="date-container">
+            <label for="horario">Horário de início:</label>
+            <input type="date" id="horario" name="horario" required>
+          </div>
+    
+          <div class="checkbox-container">
+            <input type="checkbox" id="fazerRecorrente" name="fazerRecorrente">
+            <label for="fazerRecorrente">Fazer Reserva recorrente</label>
+          </div>
+    
+          <div class="checkbox-container">
+            <input type="checkbox" id="receberPagamento" name="receberPagamento">
+            <label for="receberPagamento">Receber Pagamento</label>
+          </div>
+    
+          
+          <div class="button-container">
+            <button type="submit" class="submit-button">Enviar</button>
+            <button type="button" class="cancel-button">Cancelar</button>
+          </div>
+
+        </form>
+      </div>
+      
+  </body>
+</html>
